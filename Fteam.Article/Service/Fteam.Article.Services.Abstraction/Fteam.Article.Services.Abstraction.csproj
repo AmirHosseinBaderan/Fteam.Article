@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="StackExchange.Redis" Version="2.6.122" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\DataBase\Fteam.Article.DataBase.Context\Fteam.Article.DataBase.Context.csproj" />
+    <ProjectReference Include="..\..\DataBase\Fteam.Article.DataBase.Entitiy\Fteam.Article.DataBase.Entitiy.csproj" />
+    <ProjectReference Include="..\..\DataBase\Fteam.Article.DataBase.ViewModel\Fteam.Article.DataBase.ViewModel.csproj" />
+  </ItemGroup>
+
+</Project>
