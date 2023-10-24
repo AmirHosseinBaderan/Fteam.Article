@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\DataBase\Fteam.Article.DataBase.Context\Fteam.Article.DataBase.Context.csproj" />
+    <ProjectReference Include="..\..\DataBase\Fteam.Article.DataBase.Entitiy\Fteam.Article.DataBase.Entitiy.csproj" />
+    <ProjectReference Include="..\..\DataBase\Fteam.Article.DataBase.ViewModel\Fteam.Article.DataBase.ViewModel.csproj" />
+    <ProjectReference Include="..\Fteam.Article.Services.Abstraction\Fteam.Article.Services.Abstraction.csproj" />
+  </ItemGroup>
+
+</Project>
