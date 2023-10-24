@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{D58DB8AD-39AF-4A39-85FB-EEE7D557D67D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Date Base", "Date Base", "{00DA0F5E-0B8F-4EAD-A162-1E7EC5940ED3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{E4E2D8EA-D742-4B3B-8238-B6D331369EC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fteam.Article.DataBase.Context", "DataBase\Fteam.Article.DataBase.Context\Fteam.Article.DataBase.Context.csproj", "{0CB055FF-8260-453C-9A90-F7F8E3735250}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fteam.Article.DataBase.Entitiy", "DataBase\Fteam.Article.DataBase.Entitiy\Fteam.Article.DataBase.Entitiy.csproj", "{FA6F22C1-199F-46FB-85DE-584DF64DBAEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fteam.Article.DataBase.ViewModel", "DataBase\Fteam.Article.DataBase.ViewModel\Fteam.Article.DataBase.ViewModel.csproj", "{CFCE6710-2D1D-4B6B-9E63-9ED6A32E3D62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CB055FF-8260-453C-9A90-F7F8E3735250}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CB055FF-8260-453C-9A90-F7F8E3735250}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CB055FF-8260-453C-9A90-F7F8E3735250}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CB055FF-8260-453C-9A90-F7F8E3735250}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA6F22C1-199F-46FB-85DE-584DF64DBAEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA6F22C1-199F-46FB-85DE-584DF64DBAEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA6F22C1-199F-46FB-85DE-584DF64DBAEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA6F22C1-199F-46FB-85DE-584DF64DBAEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFCE6710-2D1D-4B6B-9E63-9ED6A32E3D62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFCE6710-2D1D-4B6B-9E63-9ED6A32E3D62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFCE6710-2D1D-4B6B-9E63-9ED6A32E3D62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFCE6710-2D1D-4B6B-9E63-9ED6A32E3D62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0CB055FF-8260-453C-9A90-F7F8E3735250} = {00DA0F5E-0B8F-4EAD-A162-1E7EC5940ED3}
+		{FA6F22C1-199F-46FB-85DE-584DF64DBAEB} = {00DA0F5E-0B8F-4EAD-A162-1E7EC5940ED3}
+		{CFCE6710-2D1D-4B6B-9E63-9ED6A32E3D62} = {00DA0F5E-0B8F-4EAD-A162-1E7EC5940ED3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33C8C24A-69D0-449C-9DFA-195251011CE3}
+	EndGlobalSection
+EndGlobal
